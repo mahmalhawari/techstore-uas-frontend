@@ -3,7 +3,7 @@
  */
 'use strict';
 
-const BASE_URL = window.BACKEND_URL || 'http://localhost:3000';
+const BASE_URL = 'https://web-production-11993.up.railway.app';
 
 // ── Auth Guard ────────────────────────────────────────
 function getToken() { return localStorage.getItem('admin_token'); }
